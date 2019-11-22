@@ -134,19 +134,8 @@ npm install gatsby-cli -g
 ```
 npm install netlify-cli -g
 ```
-- Install typescript
+- Follow the instructions here: 
 ```
-yarn add gatsby-plugin-typescript gatsby-plugin-tslint
-yarn add --dev typescript tslint tslint-loader @types/react @types/react-dom tslint-react tslint-config-prettier tslint-plugin-prettier
+https://dev.to/speshov/how-to-setup-gatsbyjs-starter-with-typescript-eslint-prettier-4jh3
 ```
-- Generate tsconfig.json
-```
-//Add to script
-...
-"tsc":"tsc"
-
-// Then run
-npm run tsc -- --init 
-```
-- Follow the rest of the instructions here: https://medium.com/maxime-heckel/getting-started-with-typescript-on-gatsby-8544b47c1d27
 
