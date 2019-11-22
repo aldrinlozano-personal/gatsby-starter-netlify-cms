@@ -124,3 +124,29 @@ This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gats
 
 Contributions are always welcome, no matter how large or small. Before contributing,
 please read the [code of conduct](CODE_OF_CONDUCT.md).
+
+## Dev Notes
+- Install gatsby-cli
+```
+npm install gatsby-cli -g
+```
+- Install netlify-cli
+```
+npm install netlify-cli -g
+```
+- Install typescript
+```
+yarn add gatsby-plugin-typescript gatsby-plugin-tslint
+yarn add --dev typescript tslint tslint-loader @types/react @types/react-dom tslint-react tslint-config-prettier tslint-plugin-prettier
+```
+- Generate tsconfig.json
+```
+//Add to script
+...
+"tsc":"tsc"
+
+// Then run
+npm run tsc -- --init 
+```
+- Follow the rest of the instructions here: https://medium.com/maxime-heckel/getting-started-with-typescript-on-gatsby-8544b47c1d27
+
